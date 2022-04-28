@@ -38,7 +38,7 @@ F 4 "https://www.newark.com/wurth-elektronik/618015233821/d-sub-conn-r-a-rcpt-15
 	1    0    0    -1  
 $EndComp
 Text GLabel 5050 4600 0    50   Output ~ 0
-RED.GND
+GND
 Text GLabel 5050 4500 0    50   Output ~ 0
 BLU.VID
 Text GLabel 5050 4400 0    50   Output ~ 0
@@ -48,7 +48,7 @@ SENSE2
 Text GLabel 5050 4200 0    50   Output ~ 0
 CSYNC
 Text GLabel 5050 4100 0    50   Output ~ 0
-C&VSYNC.GND
+GND
 Text GLabel 5050 4000 0    50   Output ~ 0
 SENSE0
 Text GLabel 5050 3900 0    50   Output ~ 0
@@ -56,17 +56,17 @@ VSYNC
 Text GLabel 5050 3800 0    50   Output ~ 0
 GRN.VID
 Text GLabel 5050 3700 0    50   Output ~ 0
-BLU.GND
+GND
 Text GLabel 5050 3600 0    50   Output ~ 0
-GRN.GND
+GND
 Text GLabel 5050 3500 0    50   Output ~ 0
-HSYNC.GND
+GND
 Text GLabel 5050 3400 0    50   Output ~ 0
 SENSE1
 Text GLabel 5050 3300 0    50   Output ~ 0
 HSYNC
 Text GLabel 6700 3200 0    50   Input ~ 0
-RED.GND
+GND
 Text GLabel 6700 3300 0    50   Input ~ 0
 BLU.VID
 Text GLabel 6700 3400 0    50   Input ~ 0
@@ -76,7 +76,7 @@ SENSE2
 Text GLabel 6700 3600 0    50   Input ~ 0
 CSYNC
 Text GLabel 6700 3700 0    50   Input ~ 0
-C&VSYNC.GND
+GND
 Text GLabel 6700 3800 0    50   Input ~ 0
 SENSE0
 Text GLabel 6700 3900 0    50   Input ~ 0
@@ -84,11 +84,11 @@ VSYNC
 Text GLabel 6700 4000 0    50   Input ~ 0
 GRN.VID
 Text GLabel 6700 4100 0    50   Input ~ 0
-BLU.GND
+GND
 Text GLabel 6700 4200 0    50   Input ~ 0
-GRN.GND
+GND
 Text GLabel 6700 4300 0    50   Input ~ 0
-HSYNC.GND
+GND
 Text GLabel 6700 4400 0    50   Input ~ 0
 SENSE1
 Text GLabel 6700 4500 0    50   Input ~ 0
@@ -108,7 +108,7 @@ $EndComp
 Text GLabel 4700 750  0    50   Input ~ 0
 RED.VID
 Text GLabel 4700 1050 0    50   Input ~ 0
-RED.GND
+GND
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 626AD20D
@@ -176,13 +176,13 @@ Wire Wire Line
 Text GLabel 4700 1300 0    50   Input ~ 0
 BLU.VID
 Text GLabel 4700 1600 0    50   Input ~ 0
-BLU.GND
+GND
 Wire Wire Line
 	4700 1600 4900 1600
 Wire Wire Line
 	4900 1600 4900 1500
 Text GLabel 4700 2150 0    50   Input ~ 0
-GRN.GND
+GND
 Text GLabel 4700 1850 0    50   Input ~ 0
 GRN.VID
 Wire Wire Line
@@ -192,9 +192,9 @@ Wire Wire Line
 Text GLabel 5750 750  0    50   Input ~ 0
 VSYNC
 Text GLabel 5750 1050 0    50   Input ~ 0
-C&VSYNC.GND
+GND
 Text GLabel 5750 1600 0    50   Input ~ 0
-C&VSYNC.GND
+GND
 Text GLabel 5750 1300 0    50   Input ~ 0
 CSYNC
 Wire Wire Line
@@ -208,7 +208,7 @@ Wire Wire Line
 Text GLabel 5750 1850 0    50   Input ~ 0
 HSYNC
 Text GLabel 5750 2100 0    50   Input ~ 0
-HSYNC.GND
+GND
 Wire Wire Line
 	5950 2050 5950 2100
 Wire Wire Line
